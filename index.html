@@ -6,18 +6,24 @@
     <title>La Station</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
 <header id="top">
     <div class="wrapper">
-        <div>
+        <div class="logo">
             <a href="#top">
         <img src="images/snowboard.png" alt="logo la station">
         <h1>La Station</h1>
         </a>
         </div>
-        <div>
+        <div class="nav">
         <ul>
             <li><a href="#top">Acceuil</a></li>
             <li><a href="#produits">Produits</a></li>
@@ -30,26 +36,26 @@
 
 <section class="hero">
     <div class="wrapper">
-        <div>
+        <div class="centrée">
             <h2>La boîte de texte est centrée</h2>
             <p>en hauteur et en largeur</p>
         </div>
     </div>
 </section>
 
-<section class="content">
+<section class="content" id="produits">
+    <div class="wrapper">
     <article>
         <img src="images/ski.jpg" alt="personne qui fait du ski">
         <h3>Zermatt</h3>
-        <p>Zermatt, c’est 450 acres de domaine skiable sur 7 versants. C’est 141 pistes pour tous les niveaux dont 101 sont éclairées. C’est un damage régulier pour des conditions idéales en tout temps.
-            <br>
+        <p>Zermatt, c’est 450 acres de domaine skiable sur 7 versants. C’est 141 pistes pour tous les niveaux dont 101 sont éclairées. C’est un damage régulier pour des conditions idéales en tout temps.<span></span>
             À moins d’une heure de Genève, de Chamonix et de Lausanne, c’est la place pour profiter pleinement de la saison de ski.</p>
         <div class="btn">
             <p>Voir Plus</p>
         </div>
     </article>
     <article>
-        <img src="images/chalet.jpg" alt="un chaet enneigée">
+        <img src="images/chalet.jpg" alt="un chalet enneigée">
         <h3>La Bohème B&B</h3>
         <p>La Bohème – Bed & Breakfast vous offre trois suites queen dans un cadre zen et luxueux avec spa et piscine creusée chauffée sur les flancs montagne à seulement 10 minutes de Zermatt, montagne d’expériences.</p>
         <div class="btn">
@@ -64,10 +70,11 @@
             <p>Voir Plus</p>
         </div>
     </article>
-    <img src="images/escapade.jpg" alt="couple en vacances">
+    <img id="escapade" src="images/escapade.jpg" alt="couple en vacances">
+    </div>
 </section>
 
-<footer>
+<footer id="bottom">
     <p>La Station 2022 © Tous droits réservés</p>
 </footer>
 
